@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2026-03-14T00:00:00.000Z" agent="Codex" version="29.6.1" compressed="false" type="device">
+  <diagram id="modern-gantt-template" name="Modern Gantt Template">
+    <mxGraphModel dx="1600" dy="1200" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#FFFDF9;strokeColor=#E6EAF0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="24" y="24" width="1780" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="&lt;font style=&quot;font-size:28px&quot;&gt;&lt;b&gt;Program Roadmap&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size:16px&quot;&gt;Replace the placeholder text and dates.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#2F4858;" vertex="1" parent="1">
+          <mxGeometry x="72" y="52" width="760" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Use color bands, cards, and spacing before adding any arrows." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#64748B;" vertex="1" parent="1">
+          <mxGeometry x="72" y="126" width="760" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E6EAF0;" vertex="1" parent="1">
+          <mxGeometry x="56" y="184" width="1620" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Track / Week" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4DF;strokeColor=#E7D8BF;fontStyle=1;fontSize=12;align=center;verticalAlign=middle;fontColor=#6B5B4B;" vertex="1" parent="1">
+          <mxGeometry x="56" y="184" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;b&gt;W1&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Date Range&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EE;strokeColor=#E8E3D8;fontSize=12;align=center;verticalAlign=middle;fontColor=#5B6472;" vertex="1" parent="1">
+          <mxGeometry x="276" y="184" width="180" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;b&gt;W2&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Date Range&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFCF5;strokeColor=#E8E3D8;fontSize=12;align=center;verticalAlign=middle;fontColor=#5B6472;" vertex="1" parent="1">
+          <mxGeometry x="456" y="184" width="180" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;b&gt;W3&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Date Range&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8EE;strokeColor=#E8E3D8;fontSize=12;align=center;verticalAlign=middle;fontColor=#5B6472;" vertex="1" parent="1">
+          <mxGeometry x="636" y="184" width="180" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;b&gt;W4&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Date Range&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFCF5;strokeColor=#E8E3D8;fontSize=12;align=center;verticalAlign=middle;fontColor=#5B6472;" vertex="1" parent="1">
+          <mxGeometry x="816" y="184" width="180" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="whiteSpace=wrap;html=1;fillColor=#FDECEF;strokeColor=none;opacity=55;" vertex="1" parent="1">
+          <mxGeometry x="276" y="240" width="360" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="whiteSpace=wrap;html=1;fillColor=#EEF9F1;strokeColor=none;opacity=55;" vertex="1" parent="1">
+          <mxGeometry x="636" y="240" width="360" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Phase 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F8EE;strokeColor=#E7ECF1;fontSize=12;fontStyle=1;align=left;spacingLeft=14;verticalAlign=middle;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="56" y="240" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Scope alignment and setup" style="rounded=1;arcSize=24;whiteSpace=wrap;html=1;fillColor=#F9D8DD;strokeColor=#E7A7AE;fontSize=11;align=center;verticalAlign=middle;fontColor=#7D4B52;" vertex="1" parent="1">
+          <mxGeometry x="288" y="252" width="336" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Phase 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF4FB;strokeColor=#E7ECF1;fontSize=12;fontStyle=1;align=left;spacingLeft=14;verticalAlign=middle;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="56" y="296" width="220" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Data and beta integration" style="rounded=1;arcSize=24;whiteSpace=wrap;html=1;fillColor=#D8F0DF;strokeColor=#8FC7A2;fontSize=11;align=center;verticalAlign=middle;fontColor=#3F6950;" vertex="1" parent="1">
+          <mxGeometry x="648" y="308" width="336" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="" style="rounded=1;arcSize=20;whiteSpace=wrap;html=1;fillColor=#F1FBF4;strokeColor=#8FC7A2;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="288" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Milestone" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#D7F0DE;strokeColor=#8FC7A2;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;fontColor=#344054;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="304" width="140" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Target Date" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#475569;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="306" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Use this card for the delivery summary, exit criteria, or the key beta checkpoint." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#475569;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="350" width="360" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Source note or footer" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=11;fontColor=#94A3B8;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="900" width="520" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

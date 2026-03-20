@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draw.io Styled Diagrams"
+  short_description: "按风格预设或参考图风格绘制 draw.io 图并自动导出验图"
+  default_prompt: "Use $drawio-modern-diagrams to create or refine a draw.io diagram in a chosen style preset or matched to a reference image, export PNG/SVG, and iterate until the layout is visually clean."

@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "runtime": {
+    "drawio_bin": "/opt/homebrew/bin/drawio",
+    "drawio_candidates": [
+      "/opt/homebrew/bin/drawio",
+      "drawio",
+      "drawio.exe",
+      "diagrams.net",
+      "diagrams.net.exe"
+    ],
+    "windows_drawio_path_templates": [
+      "%ProgramW6432%\\draw.io\\draw.io.exe",
+      "%ProgramW6432%\\draw.io\\Draw.io.exe",
+      "%ProgramW6432%\\diagrams.net\\draw.io.exe",
+      "%ProgramW6432%\\diagrams.net\\diagrams.net.exe",
+      "%ProgramFiles%\\draw.io\\draw.io.exe",
+      "%ProgramFiles%\\draw.io\\Draw.io.exe",
+      "%ProgramFiles%\\diagrams.net\\draw.io.exe",
+      "%ProgramFiles%\\diagrams.net\\diagrams.net.exe",
+      "%ProgramFiles(x86)%\\draw.io\\draw.io.exe",
+      "%ProgramFiles(x86)%\\Draw.io\\Draw.io.exe",
+      "%ProgramFiles(x86)%\\diagrams.net\\draw.io.exe",
+      "%ProgramFiles(x86)%\\diagrams.net\\diagrams.net.exe",
+      "%LocalAppData%\\Programs\\draw.io\\draw.io.exe",
+      "%LocalAppData%\\Programs\\Draw.io\\Draw.io.exe",
+      "%LocalAppData%\\Programs\\diagrams.net\\draw.io.exe",
+      "%LocalAppData%\\Programs\\diagrams.net\\diagrams.net.exe",
+      "%LocalAppData%\\draw.io\\draw.io.exe",
+      "%LocalAppData%\\diagrams.net\\diagrams.net.exe"
+    ],
+    "drawio_probe_args": [
+      "--help"
+    ],
+    "drawio_probe_timeout_sec": 15,
+    "helper_executor": "scripts/drawio_launchctl_helper.sh",
+    "helper_probe_timeout_sec": 5,
+    "helper_export_timeout_sec": 30,
+    "python_bin": "python3"
+  },
+  "paths": {
+    "template": "assets/modern-gantt-template.drawio",
+    "lint_script": "scripts/lint_drawio.py",
+    "style_rules": "references/style-rules.md",
+    "style_profiles": "references/style-profiles.md",
+    "outputs_dir": "outputs"
+  },
+  "styles": {
+    "default_profile": "soft-modern",
+    "diagram_type_defaults": {
+      "gantt": "soft-modern",
+      "roadmap": "soft-modern",
+      "timeline": "soft-modern",
+      "process": "soft-modern",
+      "topology": "minimal-topology",
+      "network": "minimal-topology",
+      "service-map": "minimal-topology",
+      "architecture": "executive-blueprint",
+      "system": "executive-blueprint",
+      "solution": "executive-blueprint"
+    },
+    "image_style_fields": [
+      "background_tone",
+      "primary_palette",
+      "surface_style",
+      "node_shape",
+      "corner_radius",
+      "stroke_weight",
+      "shadow_level",
+      "connector_style",
+      "whitespace_density",
+      "text_density"
+    ],
+    "profiles": {
+      "soft-modern": {
+        "label": "现代清新",
+        "summary": "柔和暖白底和卡片感最强，适合路线图、甘特图和轻量流程图。",
+        "template": "assets/modern-gantt-template.drawio",
+        "diagram_types": [
+          "gantt",
+          "roadmap",
+          "timeline",
+          "process"
+        ],
+        "background": "#FFFDF9",
+        "surface": "#FFFFFF",
+        "title_color": "#2F4858",
+        "body_color": "#475569",
+        "accent_palette": [
+          "#FDECEF",
+          "#D8F0DF",
+          "#EEF5FE"
+        ],
+        "node_shape": "rounded cards",
+        "corner_radius": 16,
+        "stroke_style": "soft 1px solid",
+        "shadow": "light selective",
+        "connector_style": "few, short, mostly without arrows",
+        "text_density": "medium"
+      },
+      "minimal-topology": {
+        "label": "极简拓扑",
+        "summary": "白底、低对比边框、实体节点与虚拟网关区分清楚，适合网络节点拓扑图。",
+        "template": "assets/minimal-topology-template.drawio",
+        "diagram_types": [
+          "topology",
+          "network",
+          "service-map"
+        ],
+        "background": "#FBFCFE",
+        "surface": "#FFFFFF",
+        "title_color": "#24415A",
+        "body_color": "#516274",
+        "accent_palette": [
+          "#EAF2FF",
+          "#E8F7EF",
+          "#FFF2E8"
+        ],
+        "node_shape": "solid physical nodes + dashed virtual gateways",
+        "corner_radius": 14,
+        "stroke_style": "soft 1px with dashed virtual hubs",
+        "shadow": "minimal",
+        "connector_style": "orthogonal short links without arrows by default",
+        "text_density": "low"
+      },
+      "executive-blueprint": {
+        "label": "蓝图汇报",
+        "summary": "蓝灰冷色、分区清晰、规整感更强，适合汇报型架构图和方案蓝图。",
+        "template": "assets/executive-blueprint-template.drawio",
+        "diagram_types": [
+          "architecture",
+          "system",
+          "solution",
+          "topology"
+        ],
+        "background": "#F7FAFE",
+        "surface": "#FFFFFF",
+        "title_color": "#16324F",
+        "body_color": "#4A5D75",
+        "accent_palette": [
+          "#DDEBFF",
+          "#E7F2FF",
+          "#EDF4FB"
+        ],
+        "node_shape": "ordered panels with restrained rounded rectangles",
+        "corner_radius": 12,
+        "stroke_style": "clean 1px solid",
+        "shadow": "very light",
+        "connector_style": "short routed links, arrows only if direction matters",
+        "text_density": "medium-low"
+      }
+    }
+  },
+  "exports": {
+    "default_formats": [
+      "png",
+      "svg"
+    ],
+    "inspect_format": "png",
+    "command_templates": {
+      "png": "{drawio_bin} -x -f png -o {out_dir} {input}",
+      "svg": "{drawio_bin} -x -f svg -o {out_dir} {input}"
+    }
+  },
+  "quality": {
+    "max_allowed_lint_issues": 0,
+    "require_png_review": true,
+    "avoid_arrows_by_default": true,
+    "manual_checklist": [
+      "文字没有超出边界，也没有明显拥挤",
+      "箭头没有横跨无关元素，非必要箭头已去掉",
+      "卡片、阶段带和标题对齐稳定",
+      "没有元素超出页面边界",
+      "整体观感现代、清新、留白足够"
+    ]
+  }
+}
