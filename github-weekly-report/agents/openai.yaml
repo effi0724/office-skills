@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Weekly Report"
+  short_description: "按一个或多个仓库和范围读取 GitHub 提交，自动生成中文工作总结与周报"
+  default_prompt: "Use $github-weekly-report to generate a Chinese weekly summary and weekly report from one or more configured GitHub repositories, with range, author filters, and optional per-repo path scopes."

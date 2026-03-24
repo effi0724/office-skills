@@ -1,0 +1,104 @@
+{
+  "repos": [
+    {
+      "owner": "effi0724",
+      "name": "office-skills",
+      "alias": "office-skills",
+      "default_branch": "main"
+    },
+    {
+      "owner": "effi0724",
+      "name": "rtsp2mqtt",
+      "alias": "rtsp2mqtt",
+      "default_branch": "main"
+    }
+  ],
+  "range_info": {
+    "mode": "current_week",
+    "label": "2026-W13",
+    "start_iso": "2026-03-23T00:00:00Z",
+    "end_iso": "2026-03-24T12:00:00Z",
+    "description": "本周（2026-03-23 到 2026-03-24）",
+    "base_sha": "",
+    "head_sha": ""
+  },
+  "records": [
+    {
+      "repo_full_name": "effi0724/office-skills",
+      "repo_label": "office-skills",
+      "repo_default_branch": "main",
+      "sha": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "short_sha": "aaaaaaa",
+      "html_url": "https://github.com/effi0724/office-skills/commit/aaaaaaaa",
+      "subject": "Add GitHub weekly report skill",
+      "body": "",
+      "author_display": "effi0724",
+      "author_login": "effi0724",
+      "author_email": "effi0724w@gmail.com",
+      "authored_at": "2026-03-24T08:00:00Z",
+      "committed_at": "2026-03-24T08:00:00Z",
+      "is_merge": false,
+      "files": [
+        "skills/github-weekly-report/SKILL.md",
+        "skills/github-weekly-report/scripts/github_weekly_report.py"
+      ],
+      "top_scopes": [
+        "skills/github-weekly-report"
+      ],
+      "display_scopes": [
+        "office-skills:skills/github-weekly-report"
+      ],
+      "stats": {
+        "total": 120,
+        "additions": 110,
+        "deletions": 10
+      },
+      "pull_requests": [
+        {
+          "number": 12,
+          "title": "Add GitHub weekly report skill",
+          "body": "Refs JSY-101",
+          "html_url": "https://github.com/effi0724/office-skills/pull/12"
+        }
+      ],
+      "linear_keys": [
+        "JSY-101"
+      ]
+    },
+    {
+      "repo_full_name": "effi0724/rtsp2mqtt",
+      "repo_label": "rtsp2mqtt",
+      "repo_default_branch": "main",
+      "sha": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "short_sha": "bbbbbbb",
+      "html_url": "https://github.com/effi0724/rtsp2mqtt/commit/bbbbbbbb",
+      "subject": "Add deployment docs",
+      "body": "",
+      "author_display": "effi0724",
+      "author_login": "effi0724",
+      "author_email": "effi0724w@gmail.com",
+      "authored_at": "2026-03-24T09:00:00Z",
+      "committed_at": "2026-03-24T09:00:00Z",
+      "is_merge": false,
+      "files": [
+        "docs/ubuntu-lan-deployment.md",
+        "tests/test_deploy_flow.py"
+      ],
+      "top_scopes": [
+        "docs",
+        "tests"
+      ],
+      "display_scopes": [
+        "rtsp2mqtt:docs",
+        "rtsp2mqtt:tests"
+      ],
+      "stats": {
+        "total": 45,
+        "additions": 45,
+        "deletions": 0
+      },
+      "pull_requests": [],
+      "linear_keys": []
+    }
+  ]
+}

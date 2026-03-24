@@ -1,0 +1,48 @@
+{
+  "repos": [
+    {
+      "owner": "effi0724",
+      "name": "office-skills",
+      "default_branch": "main",
+      "alias": "office-skills",
+      "filters": {
+        "include_paths": [
+          "drawio-modern-diagrams/**",
+          "github-weekly-report/**"
+        ]
+      }
+    },
+    {
+      "owner": "effi0724",
+      "name": "rtsp2mqtt",
+      "default_branch": "main",
+      "alias": "rtsp2mqtt",
+      "filters": {
+        "include_paths": [
+          "docs/**",
+          "tests/**"
+        ]
+      }
+    }
+  ],
+  "range": {
+    "mode": "current_week",
+    "start": "",
+    "end": "",
+    "base_sha": "",
+    "head_sha": ""
+  },
+  "filters": {
+    "authors": [
+      "effi0724"
+    ],
+    "include_paths": [],
+    "exclude_paths": [],
+    "exclude_merge_commits": true
+  },
+  "report": {
+    "language": "zh-CN",
+    "style": "manager",
+    "output_dir": "outputs"
+  }
+}
